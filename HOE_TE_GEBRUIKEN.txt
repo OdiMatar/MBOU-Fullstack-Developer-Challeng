@@ -1,0 +1,72 @@
+========================================
+  DEVELOPER CHALLENGE - HOE TE GEBRUIKEN
+========================================
+
+STAP 1: Laravel API Starten
+----------------------------
+Dubbelklik op: START.bat
+
+De API draait nu op http://localhost:8000
+
+
+STAP 2: Flutter App Starten
+----------------------------
+1. Open Android Studio
+2. Klik op AVD Manager (icoon rechtsboven)
+3. Start een emulator (bijv. Pixel 5)
+4. Open Command Prompt in deze folder
+5. Type: cd app
+6. Type: flutter run
+7. Wacht tot de app opent in de emulator
+
+
+STAP 3: Test de App
+----------------------------
+- Je ziet een lijst met 3 items (Laptop, Telefoon, Tablet)
+- Klik op de + knop rechtsonder
+- Vul een naam en beschrijving in
+- Klik op "Opslaan"
+- Je komt terug naar de lijst
+
+
+STAP 4: Test de API (optioneel)
+----------------------------
+Dubbelklik op: TEST_API.bat
+
+Of gebruik Postman:
+- GET http://localhost:8000/api/items
+- POST http://localhost:8000/api/items
+  Body: {"name":"Test","description":"Test item"}
+
+
+WAT IS ER GEMAAKT?
+----------------------------
+✅ Laravel backend met 2 API endpoints
+✅ Flutter app met 2 schermen
+✅ Data ophalen en tonen
+✅ Data toevoegen via formulier
+✅ Validatie en error handling
+✅ CORS geconfigureerd
+✅ Alles werkt out-of-the-box
+
+
+PROBLEMEN?
+----------------------------
+Zie SETUP.md voor troubleshooting
+
+Of check:
+- Is de Laravel API gestart? (START.bat)
+- Is de emulator aan? (Android Studio)
+- Staat internet permissie aan? (al gedaan)
+
+
+VOLGENDE STAPPEN
+----------------------------
+Kies wat je wilt toevoegen:
+- Login/register systeem
+- Zoeken en filteren
+- Mooiere UI
+- Offline mode
+- Categories
+
+Zie README.md voor de volledige challenge info.
